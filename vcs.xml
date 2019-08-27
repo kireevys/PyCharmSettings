@@ -6,8 +6,13 @@
           <option name="url" value="http://training.dev.reg.ru" />
           <option name="userName" value="yuriy1von1bud@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://training.dev.reg.ru/kireevys/courseinternship.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="C:\Users\yuriy\PycharmProjects" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
