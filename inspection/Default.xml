@@ -41,5 +41,12 @@
       </list>
     </option>
   </inspection_tool>
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="tests.test_reject.test_model.Failures" />
+      </list>
+    </option>
+  </inspection_tool>
   <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
 </profile>
