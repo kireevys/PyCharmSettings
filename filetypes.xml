@@ -5,6 +5,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="About-lessons-plan" type="Markdown" />
+      <mapping pattern="фы1" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="as" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
