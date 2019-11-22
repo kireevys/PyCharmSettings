@@ -11,4 +11,8 @@
     <keyboard-shortcut first-keystroke="alt f" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="alt escape" />
+  </action>
 </keymap>
