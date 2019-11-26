@@ -13,6 +13,8 @@
         <classPath>
           <root type="composite">
             <root url="file:///etc/perl" type="simple" />
+            <root url="file:///usr/local/lib/x86_64-linux-gnu/perl/5.26.1" type="simple" />
+            <root url="file:///usr/local/share/perl/5.26.1" type="simple" />
             <root url="file:///usr/lib/x86_64-linux-gnu/perl5/5.26" type="simple" />
             <root url="file:///usr/share/perl5" type="simple" />
             <root url="file:///usr/lib/x86_64-linux-gnu/perl/5.26" type="simple" />
