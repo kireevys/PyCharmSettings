@@ -24,6 +24,9 @@
     <option name="CORTEGE_COMMA_1ST" value="true" />
     <option name="EXPR_CASE_THEN_WRAP" value="true" />
   </MySQLCodeStyleSettings>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
   <codeStyleSettings language="MySQL">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
@@ -32,6 +35,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="Perl5">
     <option name="SPACE_WITHIN_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_IF_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_BRACES" value="true" />
