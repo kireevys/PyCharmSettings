@@ -10,6 +10,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="as" type="PLAIN_TEXT" />
       <mapping pattern="problem_notify" type="PLAIN_TEXT" />
+      <mapping pattern="broked_db" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
