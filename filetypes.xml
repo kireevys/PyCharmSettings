@@ -6,10 +6,10 @@
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern="test_mail" type="PLAIN_TEXT" />
       <mapping pattern="req" type="PLAIN_TEXT" />
-      <mapping pattern="фы1" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="as" type="PLAIN_TEXT" />
       <mapping pattern="problem_notify" type="PLAIN_TEXT" />
+      <mapping pattern="фы1" type="PLAIN_TEXT" />
+      <mapping pattern="as" type="PLAIN_TEXT" />
       <mapping pattern="broked_db" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
