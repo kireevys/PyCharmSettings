@@ -24,6 +24,10 @@
     <option name="CORTEGE_COMMA_1ST" value="true" />
     <option name="EXPR_CASE_THEN_WRAP" value="true" />
   </MySQLCodeStyleSettings>
+  <Perl5CodeStyleSettings>
+    <option name="OPTIONAL_QUOTES_HASH_INDEX" value="1" />
+    <option name="SPACE_WITHIN_QW_QUOTES" value="true" />
+  </Perl5CodeStyleSettings>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
