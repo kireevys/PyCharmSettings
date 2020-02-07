@@ -11,6 +11,7 @@
       <mapping pattern="problem_notify" type="PLAIN_TEXT" />
       <mapping pattern="фы1" type="PLAIN_TEXT" />
       <mapping pattern="as" type="PLAIN_TEXT" />
+      <mapping pattern="maillist_clearing.pl" type="PLAIN_TEXT" />
       <mapping pattern="broked_db" type="PLAIN_TEXT" />
       <mapping ext="eml" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
