@@ -1,9 +1,0 @@
-<application>
-  <component name="DockerRegistry">
-    <DockerRegistry email="kireev@reg.ru">
-      <option name="address" value="docker.reg.ru" />
-      <option name="name" value="regru" />
-      <option name="username" value="kireev" />
-    </DockerRegistry>
-  </component>
-</application>
