@@ -3,14 +3,21 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+<<<<<<< HEAD
     <option name="FILE_MASK" value="*.pm" />
+=======
+>>>>>>> parent of f3767a0... PY-2019.3.3 <kir@kir-kde-home Update find.xml
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.t</mask>
+    <mask>*.py</mask>
     <mask>*.html</mask>
     <mask>*.css</mask>
+<<<<<<< HEAD
     <mask>*.py</mask>
     <mask>*.js</mask>
+=======
+>>>>>>> parent of f3767a0... PY-2019.3.3 <kir@kir-kde-home Update find.xml
     <mask>*.pm</mask>
   </component>
 </application>
