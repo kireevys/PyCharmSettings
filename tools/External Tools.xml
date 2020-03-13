@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="Black" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/venvs/black/bin/black" />
-      <option name="PARAMETERS" value="$FilePath$" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
-    </exec>
-  </tool>
-</toolSet>

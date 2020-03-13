@@ -1,6 +1,0 @@
-<application>
-  <component name="DockerSettings">
-    <option name="dockerComposePath" value="$USER_HOME$/repos/work/regru/srs-docker/docker-compose.yml" />
-    <option name="dockerMachinePath" value="docker" />
-  </component>
-</application>
