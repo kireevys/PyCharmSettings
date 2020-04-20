@@ -3,4 +3,27 @@
     <option name="pluginVersion" value="2020.1" />
     <option name="popupShown" value="true" />
   </component>
+  <component name="PerlInterpreters">
+    <perl version="2">
+      <name value="Docker[docker.reg.ru/srsfull:latest], System: Perl 5.26.1" />
+      <type value="Perl5 Interpreter" />
+      <version value="5.26.1 for x86_64-linux-gnu-thread-multi" />
+      <homePath value="/usr/bin/perl" />
+      <roots>
+        <classPath>
+          <root type="composite" />
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional>
+        <host id="docker">
+          <image-name>docker.reg.ru/srsfull:latest</image-name>
+        </host>
+        <implementation id="porters" />
+        <versionManager id="system" />
+      </additional>
+    </perl>
+  </component>
 </application>
