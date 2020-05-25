@@ -3,7 +3,7 @@
     <configs>
       <sshConfig authType="OPEN_SSH" host="logs.reg.ru" id="997b0ec7-3378-4a5c-99da-9c501e4c39f1" port="22" nameFormat="DESCRIPTIVE" username="kireev" />
       <sshConfig authType="OPEN_SSH" host="logs.reg.ru" id="91ce605f-8303-4c5f-ace9-44512384fd36" nameFormat="DESCRIPTIVE" username="kireev" />
-      <sshConfig authType="OPEN_SSH" host="ts14179.autots.dev.reg.ru" id="d2cd2d4f-cdab-4e7f-840e-78e119e0f4bb" port="22" nameFormat="DESCRIPTIVE" username="kireev" />
+      <sshConfig authType="OPEN_SSH" host="ts14203.autots.dev.reg.ru" id="d2cd2d4f-cdab-4e7f-840e-78e119e0f4bb" port="22" nameFormat="DESCRIPTIVE" username="kireev" />
     </configs>
   </component>
 </application>
