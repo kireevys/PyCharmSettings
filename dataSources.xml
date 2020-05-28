@@ -51,5 +51,14 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="mailer@testserver" group="local" uuid="bb358091-d7fc-4445-bc69-e99cb777ff38">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3305</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>
