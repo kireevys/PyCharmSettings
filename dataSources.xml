@@ -42,7 +42,7 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3305/mailer</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="regru@testserver" group="local" uuid="26c35f27-d7a8-48b0-9aaf-e8b9b0ec779b">
+    <data-source source="LOCAL" name="regru@testserver" group="testserver" uuid="26c35f27-d7a8-48b0-9aaf-e8b9b0ec779b">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -51,7 +51,7 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mailer@testserver" group="local" uuid="bb358091-d7fc-4445-bc69-e99cb777ff38">
+    <data-source source="LOCAL" name="mailer@testserver" group="testserver" uuid="bb358091-d7fc-4445-bc69-e99cb777ff38">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
