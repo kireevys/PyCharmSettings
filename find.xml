@@ -8,6 +8,7 @@
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
+    <mask>*.pl</mask>
     <mask>*.py</mask>
     <mask>*.pm</mask>
   </component>
