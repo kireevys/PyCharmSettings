@@ -15,4 +15,14 @@
     <option name="SET_EL_WRAP" value="0" />
     <option name="SELECT_EL_LINE" value="1" />
   </MySQLCodeStyleSettings>
+  <Perl5CodeStyleSettings>
+    <option name="SPACE_WITHIN_QW_QUOTES" value="true" />
+  </Perl5CodeStyleSettings>
+  <codeStyleSettings language="Perl5">
+    <option name="SPACE_WITHIN_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_IF_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_BRACES" value="true" />
+  </codeStyleSettings>
 </code_scheme>
