@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0348264b-c787-4d61-b78b-b33d9c9e927b" name="kir@it-garage.fun:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="it-garage.fun" port="22" sshConfigId="f0e33530-00a2-4183-b7f5-718a512aa344" sshConfig="kir@it-garage.fun:22 password" />
+      </webServer>
+    </option>
+  </component>
+</application>
