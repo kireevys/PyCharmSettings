@@ -9,6 +9,9 @@
   <component name="DefaultFont">
     <option name="FONT_FAMILY" value="Fira Code Medium" />
   </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme|trash)\b.*" />
   </component>
