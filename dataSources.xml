@@ -3,25 +3,22 @@
     <data-source source="LOCAL" name="subscribers@prod" group="production" uuid="5c0a555e-885e-4b65-936f-27f1bc267d74">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.0.100.3:3306/subscribers</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="regru@prod" group="production" uuid="871036b6-b247-4989-8774-e68758f845c1">
-      <driver-ref>mysql</driver-ref>
+      <driver-ref>b1948fa3-2f7f-44eb-8f72-d46940b25dde</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://mdb3.int.reg.ru:3306/regru</jdbc-url>
-      <driver-properties>
-        <property name="serverTimezone" value="UTC" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mailer@prod" group="production" uuid="72a1b6df-2f34-4100-a286-36cbe53ffefb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://tokudb2.int.reg.ru:3306/mailer</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
@@ -30,7 +27,7 @@
     <data-source source="LOCAL" name="regru@local" group="local" uuid="41ee0e29-d671-4d62-a90e-7533409e7fd0">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3307/vote</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
@@ -39,13 +36,13 @@
     <data-source source="LOCAL" name="mailer@local" group="local" uuid="5fd23d7a-7f83-4a62-95be-241786856169">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3305/mailer</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="regru@testserver" group="testserver" uuid="26c35f27-d7a8-48b0-9aaf-e8b9b0ec779b">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3307</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
@@ -54,7 +51,7 @@
     <data-source source="LOCAL" name="mailer@testserver" group="testserver" uuid="bb358091-d7fc-4445-bc69-e99cb777ff38">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3305</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
@@ -63,7 +60,7 @@
     <data-source source="LOCAL" name="vote@prod" group="production" uuid="38fe50e8-8de0-46da-bc58-09a1e6dff112">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.0.100.3:3306/vote</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
@@ -72,7 +69,7 @@
     <data-source source="LOCAL" name="notificator@prod" group="production" uuid="17188de2-434a-4a27-bef2-eda8aeb15758">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://tokudb1.int.reg.ru:3306/notificator</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
@@ -81,7 +78,7 @@
     <data-source source="LOCAL" name="subscribers@local" group="local" uuid="6a2faf0f-3458-40b5-8390-666df85ca614">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3307/subscribers</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
