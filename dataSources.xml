@@ -84,5 +84,11 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="notificator@local" group="local" uuid="05255fa1-a8ea-48e5-8e3c-402ebea44424">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3305/</jdbc-url>
+    </data-source>
   </component>
 </application>
