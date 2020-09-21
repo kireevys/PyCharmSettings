@@ -1,12 +1,9 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
-    <driver id="cassandra">
-      <artifact name="Cassandra" use="true" />
+    <driver id="azure.ms">
+      <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="clickhouse">
-      <artifact name="ClickHouse" use="true" />
-      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="db2">
       <artifact name="DB2" use="true" />
@@ -24,22 +21,8 @@
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="exasol">
-      <artifact name="Exasol" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="greenplum">
-      <artifact name="PostgreSQL" use="true" />
-      <option name="auto-sync" value="true" />
-      <option name="schema-control" value="MANUAL" />
-      <option name="send-app-info" value="false" />
-    </driver>
     <driver id="h2.unified">
       <artifact name="H2" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="hive">
-      <artifact name="Hive" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="hsqldb.local">
@@ -54,36 +37,24 @@
       <artifact name="MariaDB Connector J" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="mongo">
-      <artifact name="MongoDB" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="sqlserver.ms">
-      <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="true" />
-      <option name="send-app-info" value="false" />
-    </driver>
-    <driver id="sqlserver.jtds">
-      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="azure.ms">
-      <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="true" />
-      <option name="send-app-info" value="false" />
-    </driver>
-    <driver id="mysql.8">
-      <artifact name="MySQL Connector/J 8" use="true" version="8.0.15" />
+    <driver id="mysql.8" driver-class="com.mysql.jdbc.Driver">
+      <artifact name="MySQL Connector/J 8" rolling="false" use="true" version="8.0.21" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <option name="format-sources-on-sync" value="true" />
       <option name="send-app-info" value="true" />
       <option name="source-loading" value="USER_SOURCES" />
       <option name="schema-control" value="AUTOMATIC" />
+      <property name="serverTimezone" value="UTC" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" />
+      <artifact name="MySQL Connector/J" use="true" version="5.1.47" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
@@ -100,11 +71,14 @@
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
     </driver>
-    <driver id="snowflake">
-      <artifact name="Snowflake" use="true" />
+    <driver id="greenplum">
+      <artifact name="PostgreSQL" use="true" />
       <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="sqlite.xerial">
+      <url-template name="new" template="jdbc:sqlite:/home/kir/netflix-bot/app/db.sqlite3" />
       <url-template name="new" template="jdbc:sqlite:/home/kir/netflix-bot/app/db.sqlite3" />
       <artifact name="Xerial SQLiteJDBC" use="true" version="3.31.1" />
       <option name="auto-sync" value="true" />
@@ -120,6 +94,15 @@
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
       </library>
     </driver>
+    <driver id="sqlserver.ms">
+      <artifact name="SQL Server" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="sqlserver.jtds">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="sybase.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="true" />
@@ -127,11 +110,38 @@
     <driver id="sybase.ase">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="exasol">
+      <artifact name="Exasol" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="clickhouse">
+      <artifact name="ClickHouse" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="cassandra">
+      <artifact name="Cassandra" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="vertica">
       <artifact name="Vertica" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="hive">
+      <artifact name="Hive" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="snowflake">
+      <artifact name="Snowflake" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="mongo">
+      <artifact name="MongoDB" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="c5023990-2d9f-4fb0-b76c-da5e8f34609e" name="db driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
+      <url-template name="new" template="jdbc:sqlite:/home/kir/netflix-bot/app/db.sqlite3" />
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
       <url-template name="In-memory" template="jdbc:sqlite::memory:" />
       <url-template name="new" template="jdbc:sqlite:/home/kir/netflix-bot/app/db.sqlite3" />
@@ -149,6 +159,34 @@
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
       </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
+      </library>
+    </driver>
+    <driver id="b1948fa3-2f7f-44eb-8f72-d46940b25dde" name="MySQL 8" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
+      <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
+      <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:param}&gt;]" />
+      <connection-bounds in-read-only="true" bound-to="schema">
+        <rewrite-parameter name="DBNAME" />
+        <rewrite-parameter name="database" in-url="true" />
+      </connection-bounds>
+      <artifact name="MySQL Connector/J 8" rolling="false" use="true" version="8.0.21" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <property name="autoReconnect" value="true" />
+      <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <property name="serverTimezone" value="UTC" />
     </driver>
   </component>
 </application>
