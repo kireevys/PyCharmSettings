@@ -10,7 +10,7 @@
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="regru@prod" group="production" uuid="871036b6-b247-4989-8774-e68758f845c1">
-      <driver-ref>mysql.8</driver-ref>
+      <driver-ref>b1948fa3-2f7f-44eb-8f72-d46940b25dde</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://mdb3.int.reg.ru:3306/regru</jdbc-url>
