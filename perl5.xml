@@ -1,6 +1,6 @@
 <application>
   <component name="Perl5ApplicationSettings">
-    <option name="pluginVersion" value="2020.1.1.1" />
+    <option name="pluginVersion" value="2020.2.4" />
     <option name="popupShown" value="true" />
   </component>
   <component name="PerlInterpreters">
@@ -12,15 +12,15 @@
       <roots>
         <classPath>
           <root type="composite">
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/etc/perl" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/local/lib/x86_64-linux-gnu/perl/5.26.1" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/local/share/perl/5.26.1" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/lib/x86_64-linux-gnu/perl5/5.26" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/share/perl5" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/lib/x86_64-linux-gnu/perl/5.26" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/share/perl/5.26" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/local/lib/site_perl" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/lib/x86_64-linux-gnu/perl-base" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/etc/perl" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/local/lib/x86_64-linux-gnu/perl/5.26.1" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/local/share/perl/5.26.1" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/lib/x86_64-linux-gnu/perl5/5.26" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/share/perl5" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/lib/x86_64-linux-gnu/perl/5.26" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/share/perl/5.26" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/local/lib/site_perl" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2020.1/perl5/remote/docker_docker.reg.ru_srsfull_latest/usr/lib/x86_64-linux-gnu/perl-base" type="simple" />
           </root>
         </classPath>
         <sourcePath>
@@ -31,32 +31,6 @@
         <host id="docker">
           <image-name>docker.reg.ru/srsfull:latest</image-name>
         </host>
-        <implementation id="porters" />
-        <versionManager id="system" />
-      </additional>
-    </perl>
-    <perl version="2">
-      <name value="Local, System: Perl 5.26.1" />
-      <type value="Perl5 Interpreter" />
-      <version value="5.26.1 for x86_64-linux-gnu-thread-multi" />
-      <homePath value="/usr/bin/perl" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file:///etc/perl" type="simple" />
-            <root url="file:///usr/lib/x86_64-linux-gnu/perl5/5.26" type="simple" />
-            <root url="file:///usr/share/perl5" type="simple" />
-            <root url="file:///usr/lib/x86_64-linux-gnu/perl/5.26" type="simple" />
-            <root url="file:///usr/share/perl/5.26" type="simple" />
-            <root url="file:///usr/lib/x86_64-linux-gnu/perl-base" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional>
-        <host id="localhost" />
         <implementation id="porters" />
         <versionManager id="system" />
       </additional>

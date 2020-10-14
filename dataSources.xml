@@ -10,19 +10,16 @@
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="regru@prod" group="production" uuid="871036b6-b247-4989-8774-e68758f845c1">
-      <driver-ref>mysql.8</driver-ref>
+      <driver-ref>b1948fa3-2f7f-44eb-8f72-d46940b25dde</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://mdb3.int.reg.ru:3306/regru</jdbc-url>
+      <jdbc-url>jdbc:mysql://mdb12.int.reg.ru:3306/regru</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="mailer@prod" group="production" uuid="72a1b6df-2f34-4100-a286-36cbe53ffefb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://tokudb2.int.reg.ru:3306/mailer</jdbc-url>
-      <driver-properties>
-        <property name="serverTimezone" value="UTC" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="regru@local" group="local" uuid="41ee0e29-d671-4d62-a90e-7533409e7fd0">
       <driver-ref>mysql.8</driver-ref>
