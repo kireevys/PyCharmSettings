@@ -6,8 +6,8 @@
       <mapping pattern=".getkeep" type="PLAIN_TEXT" />
       <mapping pattern="fo-configs" type="PLAIN_TEXT" />
       <mapping pattern="msg_1" type="PLAIN_TEXT" />
-      <mapping pattern="pre-commit" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="pre-commit" type="PLAIN_TEXT" />
       <mapping pattern="Dokerfile" type="PLAIN_TEXT" />
       <mapping pattern="movire_api" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
