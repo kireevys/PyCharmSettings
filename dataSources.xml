@@ -85,7 +85,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3305/</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3305/notificator</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="subscribers@testserver" group="testserver" uuid="935816c5-6bab-4117-bf1c-47d61e966bc1">
       <driver-ref>mysql.8</driver-ref>
