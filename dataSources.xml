@@ -99,5 +99,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://tokudb1.int.reg.ru:3306/notificator</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ts69" group="testserver" uuid="74f3b041-b4df-4713-ad12-bf6813958829">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3307</jdbc-url>
+    </data-source>
   </component>
 </application>
