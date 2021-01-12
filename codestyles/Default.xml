@@ -18,6 +18,9 @@
   <Perl5CodeStyleSettings>
     <option name="SPACE_WITHIN_QW_QUOTES" value="true" />
   </Perl5CodeStyleSettings>
+  <Python>
+    <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
+  </Python>
   <codeStyleSettings language="Perl5">
     <option name="SPACE_WITHIN_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
