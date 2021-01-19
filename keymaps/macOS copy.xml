@@ -1,5 +1,9 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
   <action id="ChangesView.Move" />
+  <action id="ChangesView.SetDefault" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="shift braceright" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -26,6 +30,13 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="GotoAction" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+  </action>
+  <action id="Jdbc.OpenConsole.New">
+    <keyboard-shortcut first-keystroke="meta alt q" />
+  </action>
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
   <action id="MethodDown" />
@@ -40,6 +51,10 @@
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="RestoreDefaultLayout" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShowContent" />
+  <action id="Tool_External Tools_flake8">
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+  </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
 </keymap>
