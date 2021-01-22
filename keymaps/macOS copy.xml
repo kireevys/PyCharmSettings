@@ -1,9 +1,7 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
   <action id="ChangesView.Move" />
   <action id="ChangesView.SetDefault" />
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="shift braceright" />
-  </action>
+  <action id="CodeCompletion" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
