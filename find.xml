@@ -14,8 +14,8 @@
     <mask>*.py§§</mask>
     <mask>*.yaml</mask>
     <mask>*.pm</mask>
-    <mask>*.py</mask>
     <mask>*.t</mask>
+    <mask>*.py</mask>
     <mask>*.py</mask>
   </component>
 </application>
