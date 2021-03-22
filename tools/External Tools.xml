@@ -9,7 +9,7 @@
   <tool name="flake8" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="flake8" />
-      <option name="PARAMETERS" value="--max-line-length=88 --docstring-convention=google --ignore=D100,D104,D105,D107,S101,W503 --import-order-style=pycharm --application-import-names=components,config,core,src,cloudvps,infra,soda,resourcemanager,tests,main $FileDir$/$FileName$" />
+      <option name="PARAMETERS" value="--max-line-length=88 --docstring-convention=google --ignore=D100,D104,D105,D107,S101,W503,I100,I201 --import-order-style=pycharm --application-import-names=components,config,core,src,cloudvps,infra,soda,resourcemanager,tests,main $FileDir$/$FileName$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
